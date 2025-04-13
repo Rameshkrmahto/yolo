@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Hello', 'No', 'Please', 'Thanks', 'iloveyou']
+
+roboflow:
+  workspace: rocky-hyasu
+  project: yolov5-crril
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rocky-hyasu/yolov5-crril/dataset/1
